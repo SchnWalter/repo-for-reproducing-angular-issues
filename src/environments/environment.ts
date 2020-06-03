@@ -3,6 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  secretKey: 'PROD_SECRET_KEY',
   production: false
 };
 

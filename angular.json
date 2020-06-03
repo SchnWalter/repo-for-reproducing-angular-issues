@@ -56,6 +56,24 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "uat-one": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.uat-one.ts"
+                }
+              ],
+              "outputHashing": "none"
+            },
+            "uat-two": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.uat-two.ts"
+                }
+              ],
+              "outputHashing": "none"
             }
           }
         },
@@ -67,6 +85,12 @@
           "configurations": {
             "production": {
               "browserTarget": "my-app:build:production"
+            },
+            "uat-one": {
+              "browserTarget": "my-app:build:uat-one"
+            },
+            "uat-two": {
+              "browserTarget": "my-app:build:uat-two"
             }
           }
         },
