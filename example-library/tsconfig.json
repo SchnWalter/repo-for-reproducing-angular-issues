@@ -21,6 +21,39 @@
       ],
       "@example/sdk/core": [
         "dist/sdk/core"
+      ],
+      "@example/sdk/accounting": [
+        "dist/sdk/accounting"
+      ],
+      "@example/sdk/departments": [
+        "dist/sdk/departments"
+      ],
+      "@example/sdk/dhs": [
+        "dist/sdk/dhs"
+      ],
+      "@example/sdk/doe": [
+        "dist/sdk/doe"
+      ],
+      "@example/sdk/dol": [
+        "dist/sdk/dol"
+      ],
+      "@example/sdk/dot": [
+        "dist/sdk/dot"
+      ],
+      "@example/sdk/fda": [
+        "dist/sdk/fda"
+      ],
+      "@example/sdk/management": [
+        "dist/sdk/management"
+      ],
+      "@example/sdk/reports": [
+        "dist/sdk/reports"
+      ],
+      "@example/sdk/sales": [
+        "dist/sdk/sales"
+      ],
+      "@example/sdk/usda": [
+        "dist/sdk/usda"
       ]
     },
     "target": "es2017",
