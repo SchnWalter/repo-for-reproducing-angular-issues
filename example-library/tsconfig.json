@@ -16,8 +16,7 @@
     "importHelpers": true,
     "preserveSymlinks": true,
     "paths": {
-      "sdk": [
-        "dist/sdk/sdk",
+      "@example/sdk": [
         "dist/sdk"
       ]
     },
