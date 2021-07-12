@@ -18,6 +18,9 @@
     "paths": {
       "@example/sdk": [
         "dist/sdk"
+      ],
+      "@example/sdk/core": [
+        "dist/sdk/core"
       ]
     },
     "target": "es2017",
