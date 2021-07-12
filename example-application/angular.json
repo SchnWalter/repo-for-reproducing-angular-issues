@@ -21,6 +21,7 @@
             "index": "web/src/index.html",
             "main": "web/src/main.ts",
             "polyfills": "web/src/polyfills.ts",
+            "preserveSymlinks": true,
             "tsConfig": "web/tsconfig.app.json",
             "assets": [
               "web/src/favicon.ico",
