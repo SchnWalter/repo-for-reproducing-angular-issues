@@ -6,7 +6,7 @@
     "sdk": {
       "projectType": "library",
       "root": "sdk",
-      "sourceRoot": "sdk/src",
+      "sourceRoot": "sdk",
       "prefix": "sdk",
       "architect": {
         "build": {
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "sdk/src/test.ts",
+            "main": "sdk/test.ts",
             "tsConfig": "sdk/tsconfig.spec.json",
             "karmaConfig": "sdk/karma.conf.js"
           }
