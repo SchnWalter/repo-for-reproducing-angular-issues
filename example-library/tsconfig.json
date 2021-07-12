@@ -15,6 +15,12 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "preserveSymlinks": true,
+    "paths": {
+      "sdk": [
+        "dist/sdk/sdk",
+        "dist/sdk"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
