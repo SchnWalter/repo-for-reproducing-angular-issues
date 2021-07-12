@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { VERSION } from '@example/sdk';
 
 @Component({
   selector: 'web-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web';
+  version = VERSION
 }
